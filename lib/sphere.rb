@@ -2,6 +2,7 @@ require_relative "geometric_base"
 
 class Sphere < GeometricBase
   attr_writer :radius
+  
 
   def initialize(radius)
     @radius = radius
